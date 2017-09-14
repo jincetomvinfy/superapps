@@ -1,0 +1,6 @@
+/target/
+user-service/.DS_Store
+user-service/.classpath
+user-service/.project
+user-service/.settings/org.eclipse.jdt.core.prefs
+user-service/.settings/org.eclipse.m2e.core.prefs

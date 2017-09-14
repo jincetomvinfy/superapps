@@ -1,0 +1,5 @@
+/target/
+movie-service/.classpath
+movie-service/.project
+movie-service/.settings/org.eclipse.jdt.core.prefs
+movie-service/.settings/org.eclipse.m2e.core.prefs
