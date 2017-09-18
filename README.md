@@ -1,11 +1,16 @@
 # superapps
 super performing nonblocking apps
 
-Run the vertx app using following commands
+We have two apps, user service and account service.
 
-``` java -jar target/vertxreactive-1.0-SNAPSHOT-fat.jar```
-
-```java -jar target/vertxreactive-1.0-SNAPSHOT-fat.jar -conf src/main/conf/vertxreactive-conf.json```
+The idea is both should be regisrted to a service registry and it must be discoverable to each other.
 
 
-Have installed mongodb on your system
+Run the apps using following commands
+
+```java -jar target/user-service-1.0-SNAPSHOT-fat.jar -conf src/main/resources/application-conf.json```
+
+```java -jar target/account-service-1.0-SNAPSHOT-fat.jar -conf src/main/resources/application-conf.json```
+
+
+Have installed mongodb on your system so that both the services can communicate with each other.
